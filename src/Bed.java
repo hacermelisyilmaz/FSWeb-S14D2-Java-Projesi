@@ -12,4 +12,8 @@ public class Bed {
         this.sheets = sheets;
         this.quilt = quilt;
     }
+
+    public void make() {
+        System.out.println("The bed is being made.");
+    }
 }
