@@ -1,3 +1,5 @@
+package com.workintech.model;
+
 public class Wall {
     private String direction;
 
@@ -6,7 +8,7 @@ public class Wall {
     }
 
     public void create() {
-        System.out.println("Wall direction: " + direction);
+        System.out.println("com.workintech.model.Wall direction: " + direction);
     }
 
     public String getDirection() {

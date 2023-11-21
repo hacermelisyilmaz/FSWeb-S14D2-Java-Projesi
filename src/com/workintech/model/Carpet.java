@@ -1,3 +1,7 @@
+package com.workintech.model;
+
+import com.workintech.enums.PaintColor;
+
 public class Carpet {
     private int width;
     private int height;
@@ -10,7 +14,7 @@ public class Carpet {
     }
 
     public void lying() {
-        System.out.println("Carpet is lying on bedroom floor.");
+        System.out.println("com.workintech.model.Carpet is lying on bedroom floor.");
     }
 
     public int getWidth() {

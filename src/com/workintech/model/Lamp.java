@@ -1,3 +1,7 @@
+package com.workintech.model;
+
+import com.workintech.enums.LampType;
+
 public class Lamp {
     private LampType style;
     private boolean battery;
@@ -10,7 +14,7 @@ public class Lamp {
     }
 
     public void turnOn() {
-        System.out.println("Lamp is being turned on.");
+        System.out.println("com.workintech.model.Lamp is being turned on.");
     }
 
     public LampType getStyle() {

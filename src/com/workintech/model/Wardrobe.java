@@ -1,3 +1,5 @@
+package com.workintech.model;
+
 public class Wardrobe {
     private int width;
     private int height;
@@ -10,7 +12,7 @@ public class Wardrobe {
     }
 
     public void add() {
-        System.out.println("Wardrobe is added into bedroom.");
+        System.out.println("com.workintech.model.Wardrobe is added into bedroom.");
     }
 
     public int getWidth() {
