@@ -16,4 +16,20 @@ public class Bed {
     public void make() {
         System.out.println("The bed is being made.");
     }
+
+    public int getPillows() {
+        return pillows;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getSheets() {
+        return sheets;
+    }
+
+    public int getQuilt() {
+        return quilt;
+    }
 }
