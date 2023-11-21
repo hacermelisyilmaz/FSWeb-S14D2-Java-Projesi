@@ -13,4 +13,15 @@ public class Lamp {
         System.out.println("Lamp is being turned on.");
     }
 
+    public LampType getStyle() {
+        return style;
+    }
+
+    public boolean isBattery() {
+        return battery;
+    }
+
+    public int getGlobRating() {
+        return globRating;
+    }
 }
