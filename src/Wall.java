@@ -4,4 +4,8 @@ public class Wall {
     public Wall(String direction) {
         this.direction = direction;
     }
+
+    public void create() {
+        System.out.println("Wall direction: " + direction);
+    }
 }
