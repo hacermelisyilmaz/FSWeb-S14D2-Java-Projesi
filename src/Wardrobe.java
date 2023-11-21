@@ -8,4 +8,16 @@ public class Wardrobe {
         this.height = height;
         this.weight = weight;
     }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
 }
