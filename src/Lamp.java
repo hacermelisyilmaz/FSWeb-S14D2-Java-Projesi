@@ -9,4 +9,8 @@ public class Lamp {
         this.globRating = globRating;
     }
 
+    public void turnOn() {
+        System.out.println("Lamp is being turned on.");
+    }
+
 }
