@@ -7,6 +7,10 @@ public class Ceiling {
         this.paintedColor = paintedColor;
     }
 
+    public void create() {
+        System.out.println("Height: " + height + ", Color: " + paintedColor);
+    }
+
     public int getHeight() {
         return height;
     }
