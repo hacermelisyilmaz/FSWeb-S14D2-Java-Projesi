@@ -9,6 +9,10 @@ public class Carpet {
         this.color = color;
     }
 
+    public void lying() {
+        System.out.println("Carpet is lying on bedroom floor.");
+    }
+
     public int getWidth() {
         return width;
     }
