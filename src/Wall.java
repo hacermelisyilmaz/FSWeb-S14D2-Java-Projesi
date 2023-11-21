@@ -8,4 +8,8 @@ public class Wall {
     public void create() {
         System.out.println("Wall direction: " + direction);
     }
+
+    public String getDirection() {
+        return direction;
+    }
 }
