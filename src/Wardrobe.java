@@ -9,6 +9,10 @@ public class Wardrobe {
         this.weight = weight;
     }
 
+    public void add() {
+        System.out.println("Wardrobe is added into bedroom.");
+    }
+
     public int getWidth() {
         return width;
     }
